@@ -408,17 +408,17 @@ input[type="checkbox"] {
   }
 
   .right-form {
-    width: 100%;
+    width: 83%;
     margin-top: 2rem;
-  }
-
-  .right-form form {
-    width: 100%;
-  }
-
-  .right-form input[type="text"],
-  .right-form input[type="email"] {
-    width: 100%;
+    margin-left: -8px;
   }
 }
 
+.right-form form {
+  width: 100%;
+}
+
+.right-form input[type="text"],
+.right-form input[type="email"] {
+  width: 100%;
+}
