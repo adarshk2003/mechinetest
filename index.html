@@ -177,7 +177,9 @@
 
     <script>
         function toggleMenu() {
-            document.getElementById("navLinks").classList.toggle('active');
+            const nav = document.getElementById("navLinks");
+            nav.classList.toggle('active');
+            document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : 'auto';
         }
 
     </script>
